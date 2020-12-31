@@ -1,3 +1,4 @@
+import { SharedService } from './shared.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'IntelInput';
+date:any;
+  constructor(private service:SharedService){
+    this.date=this.service.Mydate;
+  }
 }
