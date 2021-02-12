@@ -14,4 +14,7 @@ const url ="https://jsondata-1abaf-default-rtdb.europe-west1.firebasedatabase.ap
 
 return this.http.get(url);
 }
+fetchData(){
+  return this.http.get('http://dummy.restapiexample.com/api/v1/employees')
+}
 }
