@@ -24,7 +24,6 @@ ngOnInit(){
   this.dataSource.paginator = this.paginator;
   this.dataSource.sort = this.sort;
   this.fetchValue()
-
 }
 fetchValue(){
   this.service.fetchData().subscribe((report:any)=>{
