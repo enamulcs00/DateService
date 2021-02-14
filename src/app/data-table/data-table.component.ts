@@ -13,7 +13,7 @@ import { Employees } from '../employees';
   styleUrls: ['./data-table.component.css']
 })
 export class DataTableComponent implements OnInit{
-  ELEMENT_DATA : Employees[];
+  ELEMENT_DATA : Employees[]=[];
 
   displayedColumns: string[] = ['id','employee_name', 'employee_age', 'employee_salary'];
   dataSource = new MatTableDataSource<Employees>(this.ELEMENT_DATA);
