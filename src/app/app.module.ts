@@ -12,6 +12,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSortModule } from '@angular/material/sort';
 import {MatInputModule} from '@angular/material/input';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -28,11 +31,14 @@ import {MatInputModule} from '@angular/material/input';
     BrowserAnimationsModule,
     HttpClientModule,
     MatTableModule,
+    MatCardModule,
     MatFormFieldModule,
     MatButtonModule,
     MatPaginatorModule,
     MatInputModule,
     MatSortModule,
+    MatIconModule,
+    MatSnackBarModule
 
   ],
 
